@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <NavBar logo= "assets/img/logos.png" items={items} btn="Login test" />
-    <h1>hello my friend I'm alaa</h1>
+    <h1>hello world</h1>
     </>
   )
 }
