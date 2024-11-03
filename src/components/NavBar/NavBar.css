@@ -1,0 +1,48 @@
+nav{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        li{
+            font-weight: 500;
+            color: #222222;
+            cursor: pointer;
+        }
+    }
+
+    .btn{
+        width: 135px;
+        height: 38px;
+        border-radius: 6px ;
+        font-size: 14px;
+        background-color: #025595;
+        color: #F5F5F5;
+        border: none;
+        cursor: pointer;
+
+    }
+    .bars{
+        background: none;
+        border: none;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    nav{
+        padding: 0 20px;
+    }
+    nav ul , nav .btn {
+        display: none;
+    }
+
+    nav .bars{
+        display: block;
+    }
+}
